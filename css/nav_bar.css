@@ -1,0 +1,155 @@
+.nav_bar {
+	width: 100%;
+	height: 120px;
+	background: linear-gradient(#c92744, #d9405c);
+	display: flex;
+	flex-flow: nowrap;
+	text-transform: uppercase;
+}
+
+.nav_menu {
+	width: 100%;
+	top: 0;
+	height: 40px;
+	min-width: 1200;
+	background-color: #d9405c;
+	display: flex;
+	flex-flow: wrap;
+	border-top: 2px solid #F28B9E;
+}
+
+.nav_menu table {
+	margin: auto;
+	font-size: 0.9em;
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+.nav_menu table td{
+	padding-right: 30px;
+}
+
+.logo {
+	min-width: 120px;
+	width: 20%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 3%;
+	display: flex;
+	flex-flow: nowrap;
+	text-align: center;
+	font-size: 5.5em;
+	color: white;
+}
+
+@font-face {
+	font-family: Kaya_Medium;
+	src: url(../Kaya_Medium.otf);
+}
+.logo span {
+	position: absolute;
+	top: 25px;
+	left: 180px;
+	margin-bottom: 80px;
+	display: block;
+	font-family: Kaya_Medium;
+}
+
+.logo a:link {
+	color: white;
+}
+
+.logo a:visited {
+	color: white;
+}
+
+.login {
+	min-width: 450px;
+	color : white;
+	display: flex;
+	margin: auto;
+	margin-right: 5px;
+	flex-flow: nowrap;
+	display: flex;
+}
+
+.login a:link
+{
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+.login a:visited
+{
+	color: white;
+	text-decoration: none;
+
+}
+
+.labels {
+	color: white;
+	font-family: Verdana;
+	font-size: 0.8em;
+	border-radius: 12px;
+
+}
+
+.txt_connexion {
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.btn_login {
+
+	box-shadow: none;
+	background-color: #d9405c;;
+	width: 10%;
+	padding: 5px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	background-color: white;
+	border: 1px solid pink;
+	border-radius: 5px;
+	color: black;
+}
+
+.create_account {
+	text-align: center;
+	height : 25px;
+	border-bottom: 1px solid #F5A4B3;
+}
+
+.cart {
+	padding: 6px;
+	margin-right: 5px;
+}
+
+.logged {
+	display: flex;
+	margin: auto;
+	margin-right: 5px;
+}
+
+.hello_user {
+	text-align: center;
+	color: white;
+	font-family: Verdana;
+	font-size: 0.95em;
+	text-transform: uppercase;
+	margin: auto;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #F5A4B3;
+}
+
+.under_hello {
+	text-align: center;
+}
+
+.nav_menu a {
+	color: white;
+	text-decoration: none;
+	font-family: Verdana;
+}

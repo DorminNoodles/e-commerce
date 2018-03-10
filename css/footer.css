@@ -1,0 +1,21 @@
+.footer {
+	position : fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	flex-direction: column;
+	display: flex;
+	flex-flow: wrap;
+	color: #FFFFFF;
+	min-height: 50px;
+	background: linear-gradient(#c92744, #d9405c);
+}
+
+.footer_content {
+	font-family: Verdana;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin: auto;
+
+}
